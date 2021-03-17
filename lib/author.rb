@@ -14,6 +14,10 @@ class Author
     add_post(posting)
   end
   
+  def name
+    @name
+  end
+  
   def posts
     Post.all.select { |posting| posting.author == self}
   end
