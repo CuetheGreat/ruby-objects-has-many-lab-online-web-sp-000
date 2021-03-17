@@ -14,7 +14,7 @@ class Song
   end
   
   def atrist_name
-    @artist
+    @artist.name
   end
   
   def name
