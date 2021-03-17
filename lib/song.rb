@@ -13,7 +13,7 @@ class Song
     @artist = artist
   end
   
-  def atrist_name
+  def artist_name
     if @artist
       @artist.name
     else
